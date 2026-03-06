@@ -1,0 +1,95 @@
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg,#2b7cff,#6fb1ff);
+margin:0;
+padding:40px;
+
+}
+
+/* container */
+
+.container{
+max-width:800px;
+margin:auto;
+}
+
+/* judul */
+
+h1{
+text-align:center;
+color:white;
+margin-bottom:30px;
+}
+
+/* Card informasi */
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+width:400px;
+text-align:left;
+margin:auto;
+}
+
+.card p{
+font-size:16px;
+margin:15px 0;
+}
+
+/* VISI */
+
+.visi{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+margin-bottom:20px;
+border-left:20px solid #2b7cff;
+}
+
+.visi h2{
+color:#2b7cff;
+}
+
+/* MISI */
+
+.misi{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+border-left:6px solid #00b894;
+}
+
+.misi h2{
+color:#00b894;
+}
+
+.misi ul{
+padding-left:20px;
+}
+
+.misi li{
+margin:8px 0;
+}
+
+/* tombol kembali */
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:10px 20px;
+background:white;
+color:#2b7cff;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#2b7cff;
+color:white;
+}

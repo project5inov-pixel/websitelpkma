@@ -1,0 +1,58 @@
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg,#2b7cff,#6fb1ff);
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* Container utama */
+
+.container{
+text-align:center;
+}
+
+/* Judul */
+
+h1{
+color:white;
+margin-bottom:20px;
+}
+
+/* Card informasi */
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+width:400px;
+text-align:left;
+margin:auto;
+}
+
+.card p{
+font-size:16px;
+margin:15px 0;
+}
+
+/* Tombol */
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#ffffff;
+color:#2b7cff;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#2b7cff;
+color:white;
+}
